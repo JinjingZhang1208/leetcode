@@ -1,0 +1,14 @@
+1. original_string = "listen"
+sorted_list = sorted(original_string)
+print(sorted_list)  # This will print: ['e', 'i', 'l', 'n', 's', 't']
+
+# Sort the characters in the string to create a unique key
+            sorted_str = ''.join(sorted(s))
+
+2.创建dict的用ans = defaultdict(list) 
+Using defaultdict(list):
+ans = defaultdict(list)
+for s in strs:
+    sorted_str = "".join(sorted(s))
+    ans[sorted_str].append(s)
+With this approach, you don't need to explicitly check if the key sorted_str exists in the dictionary. If it doesn't exist, defaultdict automatically creates a new entry with an empty list as the default value.

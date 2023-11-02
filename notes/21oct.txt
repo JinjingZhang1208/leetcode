@@ -1,0 +1,29 @@
+1. Use dictionary[key] to find the value.
+2. dictionary.get(key, 0)) to avoid a key not existing in the dictionary
+3. Loop the key:  
+for key in my_dict:
+4. Loop the value:
+for value in my_dict.values():
+5. for key, value in my_dict.items():
+6. remove key-value pairs:
+Del my_dict[key]
+7. Get a list of keys or values
+keys_list = list(my_dict.keys())
+values_list = list(my_dict.values())
+
+8. Comparing two dictionaries, use ==
+
+dict1 = {'a': 1, 'b': 2, 'c': 3}
+dict2 = {'b': 2, 'a': 1, 'c': 3}  # The keys are in a different order
+
+if dict1 == dict2:
+    print("The dictionaries are considered equal.")
+else:
+    print("The dictionaries are still considered equal.")
+
+In this example, even though the keys are in a different order in dict2, the dictionaries are considered equal because they have the same keys with the same associated values.
+
+
+//////////
+1. Use sorting => average time complexity is O(nlogn), bad time complexity is (n^2), space complexity O(1).  => sorted()
+
