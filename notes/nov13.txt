@@ -1,0 +1,5 @@
+1. In python, use lower() / upper() to change the capital letter
+
+2. Use isalpha() to see if they are letters
+
+3. letter.isalnum() to check if the character is alphanumeric
