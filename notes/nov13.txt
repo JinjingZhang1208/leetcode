@@ -3,8 +3,10 @@
 2. Use isalpha() to see if they are letters
 
 3. letter.isalnum() to check if the character is alphanumeric
+or we could use ord('A') 
 
 4. a[::-1]
 >>> a = '1234'
 >>> a[::-1]
 '4321'
+
