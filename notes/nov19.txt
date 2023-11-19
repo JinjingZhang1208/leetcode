@@ -1,0 +1,2 @@
+sort() 是在原列表上排序 nums.sort()
+Sorted（） 是在新列表上进行排序 原列表不变 newList = sorted(nums)
